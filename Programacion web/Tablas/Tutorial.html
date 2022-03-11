@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tutorial Tablas</title>
+	<center><h1>Tutorial para hacer tablas en HTML</h1></center>
+	<h1><center>Portugal Quintero Adolfo</h1> </center>
+	<style>
+table,th,td
+{
+	border: 1px solid rgb(0, 0, 0);
+}
+</style>
+</head>
+<body style="background-color: rgb(124, 116, 116);">
+	<p>En esta pagina veremos como hacer tablas en html la cual explicaremos algunas de los comando que se deben de utilizar para hacer tablas, elementos para darles color, grosor del marco de la tabla como poder insertar texto, entre algunas fuciones mas.
+	</p>
+
+	<p> Para comenzar programando las tablas debemos de declarlas las cual escribimos style debajo del style escribimos table, th,td para declarar tabla, datos de la tabla y encabezado.
+	</p>
+
+	<p> td: significado de datos de la tabla.
+	<br>th: define la celda como encabezado de la tabla.
+	<br>tr: Significan la fila de la tabla 
+	</p>
+
+	<p> 
+		Dentro del style podemos darle un tamano a los bordes de la tabla y de igual manera un color.
+	</p>
+	<table aling="center" style="width:50%">
+		<tr>
+			<th>Matricula</th>
+			<th>Nombre</th>
+			<th>Calificacion</th>
+		</tr>
+		<tr>
+			<td>18210995</td>
+			<td>Galindo reyes Gonzalo</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>18210531</td>
+			<td>Siordia Aguilar Gilberto Daniel</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>18210464</td>
+			<td>Chavez Pulido Mario Albero </td>
+			<td>90</td>
+		</tr>
+
+		<p>
+			Los elemntos de las celdas de la tabla pueden contener texto, Imagenes,listas, otas tablas....
+		</p>
+	</table>
+
+		<p>
+			Para asignarle un tamano de bordes debemos de utilizar la siguiente linea de codigo:
+			<center style="color:red">
+			border: 1px solid black
+			</center>
+			<br> 1px es el tamano de grosor del borde.
+			<br>Solid black es el color del borde de la tabla.
+		</p>
+		
+		<p>
+			Con la siguiente linea de codigo podemos asignarle un tamano a las columnas de la tabla estas pueden ser mas pequenas o mas grandes. 
+			<center 
+			style="color: green;">th style="width:50%"
+			</center> 
+		</p>
+
+		<p> Con el comando tr y style podemos darle un ancho a las filas las cuales se le daran una anchura en pixeles, a continuacion les mostraremos el codigo para realizarlo</p>
+
+		<center style="color: navy;"> tr style="height:300px"</center>	
+
+		<p>
+			Como ya sabemospodemos darle estilos a la tabla y de igual manera podemos darle un color
+
+			Para darle un color a la tabla, volvemos al apartado donde declarate tu tabla y los td dentro de las llaves y agregamos el siguiente comando 
+			<center style="color: red;"> background color: blueViolet</center>
+		</p>
+
+		<p>
+			Para aplicar un estilo utilizaremos el selector con el codigo (:nth-child(even))
+		</p>
+	</body>
+</html>
+	
