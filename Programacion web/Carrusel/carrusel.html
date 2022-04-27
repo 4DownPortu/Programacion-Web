@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Carrusel</title>
+	<!--link de Bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <h1 align="center">CARRUSEL DE IMAGENES</h1>
+    <!--css para alinear los elementos del carrusel-->
+<style type="text/css">
+	.carousel-item{
+		height: 350px;
+		width: 600px;
+		left: 270px;
+		right: 200px;
+	}
+	.carousel-control-prev{
+		right: 700px;
+		left:200px;
+
+	}
+	.carousel-control-next{
+		right: 700px;
+		left: 950px;
+	}
+	.slider{
+		height: 350px;
+		width: 600px;
+		left: 270px;
+	
+	}</style>
+<!--Carrusel de Imagenes-->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+            <img src="https://animalgourmet.com/wp-content/uploads/2018/03/karl-fredrickson-35017-unsplash-e1521153208877.jpg"  class="imagen1" width="800" height="400">
+      </div>
+      <div class="carousel-item">
+            <img src="https://perfectdailygrind.com/es/wp-content/uploads/sites/2/2019/11/moka.jpg" class="imagen2" width="800" height="400">
+      </div>
+      <div class="carousel-item">
+            <img src="https://www.ticocoffee.com/es/images/cache/73a7aadcd3758249acd0febae985b34c_w512.jpg" class="imagen3" width="800" height="400">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cafeurbano.pe/wp-content/uploads/2019/02/m%C3%A9todo-decocci%C3%B3n-caf%C3%A9-turco.jpg" class="imagen4" width="800" height="400">
+  </div>
+  <div class="carousel-item">
+    <img src="https://baristakim.es/wp-content/uploads/2018/01/Aeropress-V60-Chemex-Filtro-Cafe-Metodos.jpg" class="imagen5" width="800" height="400">
+</div>
+    </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
